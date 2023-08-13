@@ -35,7 +35,7 @@ body {
 }
 
 body {
-  background-color: rgb(65, 84, 114);
+  background-color: rgb(63, 61, 78);
 
   font-family: "Satoshi 400";
   font-size: 1.5rem;
@@ -140,7 +140,7 @@ nav img {
   align-items: center;
   gap: 2.5rem;
 
-  background: rgb(31, 38, 49);
+  background: rgb(63, 61, 78);
   transition: all 0.5s ease-in-out;
 
   z-index: 2;
@@ -186,7 +186,7 @@ nav img {
 .menu-bar::after {
   height: 0.2rem;
   border-radius: 0.5rem;
-  background: rgba(24, 185, 207, 0.9);
+  background: rgba(69, 18, 163, 0.9);
   transition: all 0.5s ease-in-out;
 }
 
@@ -230,7 +230,7 @@ nav img {
 }
 
 .nav-link a:hover {
-  color: rgba(24, 185, 207, 0.9);
+  color: rgba(41, 76, 164, 0.9);
 }
 
 .nav-link:nth-child(4):hover {
@@ -279,8 +279,8 @@ main {
 .name-highlight {
   background: -webkit-linear-gradient(
     top right,
-    rgb(237, 63, 199),
-    rgb(244, 9, 9)
+    rgb(237, 63, 138),
+    rgb(62, 59, 241)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -353,7 +353,7 @@ main {
   bottom: -1.8px;
   left: -1.8px;
   right: -1.8px;
-  background: linear-gradient(180deg, rgba(24, 185, 207, 0.9) 0%, #3b53a8 100%);
+  background: linear-gradient(180deg, rgba(207, 24, 94, 0.9) 0%, #3b53a8 100%);
   z-index: -1;
   border-radius: 1.5rem;
 }
@@ -368,12 +368,28 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   padding-bottom: 10rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px; /* Adjust the spacing between text and image */
 }
 
 .portfolio-image {
   width: 500px; /* Adjust the width as needed */
+  border: 2px solid #333; /* Add a 2px solid border with a color of your choice */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.about-image {
+  width: 1000px; /* Adjust the width as needed */
   border: 2px solid #333; /* Add a 2px solid border with a color of your choice */
   border-radius: 5px; /* Optional: Add rounded corners */
 }
@@ -402,7 +418,7 @@ main {
 
 .about-text span {
   font-family: "Satoshi 700";
-  color: rgb(29, 228, 255);
+  color: rgb(255, 69, 125);
 }
 
 .about-text + ul {
@@ -429,7 +445,7 @@ main {
   background: linear-gradient(
     99.41deg,
     #002cc7 -39.51%,
-    rgba(24, 185, 207, 0.9) 116.85%
+    rgba(207, 24, 94, 0.9) 116.85%
   );
 }
 
@@ -464,8 +480,8 @@ main {
   display: flex;
   flex-direction: column-reverse;
 
-  max-width: 35rem;
-  max-height: 58rem;
+  max-width: 80rem;
+  max-height: 80rem;
   background: rgb(38, 50, 67);
   box-shadow: 0 1rem 2rem 0 rgba(27, 27, 27, 0.1);
 
@@ -501,7 +517,7 @@ h3 {
 .project-tools p {
   background: linear-gradient(
     150deg,
-    rgba(29, 228, 255, 0.81) -6.94%,
+    rgba(255, 29, 123, 0.81) -6.94%,
     rgba(59, 83, 168, 0.9) 97.22%
   );
   -webkit-background-clip: text;
@@ -514,11 +530,12 @@ h3 {
 }
 
 .project-image-box {
+  width: 50rem;
   position: relative;
 }
 
 .project-image-box2 {
-  margin-left: 10rem;
+  width: 40rem;
   position: relative;
 }
 
@@ -629,7 +646,7 @@ footer {
 footer span {
   background: linear-gradient(
     210deg,
-    rgba(29, 228, 255, 0.81) -6.94%,
+    rgba(255, 29, 142, 0.81) -6.94%,
     rgba(59, 83, 168, 0.9) 97.22%
   );
   -webkit-background-clip: text;
